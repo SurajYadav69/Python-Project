@@ -1,0 +1,7 @@
+print("Welcome to the roller coaster ride")
+height = float(input("What's Your Height: "))
+
+if height <= 5.6:
+    print("You Can Ride The Roller Coaster Ride")
+else:
+    print("You Can Ride The Roller Coaster")
