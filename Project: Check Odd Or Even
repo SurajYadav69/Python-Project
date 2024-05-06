@@ -1,0 +1,10 @@
+"Project: Check Odd Or Even "
+
+print("Welcome to the program where you can check either your input is an odd or even")
+no = int(input("entre your no:-"))
+
+if no % 2:
+    print("odd")
+else: print("even")
+
+                   
