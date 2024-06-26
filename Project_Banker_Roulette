@@ -1,0 +1,9 @@
+import random
+print("Please Entre the names with seprate with comma (,)\n")
+x = input("Entre:- ")
+
+y = x.split(",")
+print("List Of Names:- ",y)
+
+z = random.choice(y)
+print(z," has To Pay For Bill")
